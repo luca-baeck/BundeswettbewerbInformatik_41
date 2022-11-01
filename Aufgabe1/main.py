@@ -9,7 +9,7 @@ def readFile(filename):
 def createRegex(nachricht):
     regex = nachricht.replace(" ", "\s")
     regex = regex.replace(".", "\.")
-    regex = regex.replace("_", "[^\s|\«]+")
+    regex = regex.replace("_", "[^\s]+")
     return regex
 
 
