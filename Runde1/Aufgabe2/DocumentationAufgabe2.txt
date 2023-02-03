@@ -1,0 +1,23 @@
+Aufgabe 2: Verzinkt
+Bearbeiter dieser Aufgabe:
+Luca Bäck
+
+Lösungsidee:
+Zufällige Keime im Bild spawnen lassen und dann mit jedem Durchlauf neue Kristalle (1 Pixel groß) spawnen. Diese spawnen dann wieder im nächsten Durchlauf neue Kristalle.
+
+Umsetzung:
+Funktioniert in der Theorie, kann jedoch sehr lange dauern bis das Bild fertig ist aufgrund der verschiedenen Ausbreitungsgeschwindigkeiten.
+Aufbau des Programms:
+Das Bild wird in einem zwei dimensionalem Numpyarray gespeichert.
+Über die Attribute der Klasse Kristallmuster kann das Programm gesteuert und beeinflusst werden.
+3 verschiedene Klassen:
+ - Kristallmuster - erzeugt das Bild und ruft die Methoden in der richtigen Reihenfolge auf.
+ - Keim - Ist der Startpunkt eines neuen Kristalls.
+ -Kristall - wird vom Keim erzeugt, wenn dieser wächst und einen neuen Pixel erreicht. Hat die gleiche Orientierung wie der Keim
+
+Werte:
+Bei einer hohen Anzahl von Keimen (max 255) und mittleren Geschwindigkeiten (25 Pixel pro Zeiteinheit) kommen ähnliche Bilder wie in der Aufgabenstellung zustande.
+
+
+
+

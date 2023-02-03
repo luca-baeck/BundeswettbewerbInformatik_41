@@ -17,6 +17,7 @@ content = readFile(buch)
 content = content.replace("\n", " ")
 content = content.replace("  ", " ")
 
+
 nachricht = readFile(stoerung)
 print(nachricht)
 

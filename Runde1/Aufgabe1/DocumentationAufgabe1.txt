@@ -1,0 +1,38 @@
+Aufgabe 1: Störung
+Bearbeiter dieser Aufgabe:
+Luca Bäck
+
+Lösungsidee:
+Aus der Störungsdatei baut das Programm einen Regulären Ausdruck. Mit diesem durchsucht es dann das Buch, wobei Groß- und Kleinschreibung nicht berücksichtigt wird.
+
+Umsetzung:
+Zuerst liest das Programm sowohl den Buchtext als auch das gestörte Zitat ein. Nur erstellt es einen regulären Ausdruck, der nach einem Zitat sucht und wendet diesen auf das Buch an.
+Das Ergebnis wird nun als Liste mit verschiedenen passenden Zitaten gespeichert und ausgegeben.
+
+Beispiele:
+
+Stoerung0:
+Das kommt mir gar nicht richtig vor
+
+Stoerung1:
+Hier klatschte das zweite Meerschweinchen
+
+Stoerung2:
+Fressen Katzen gern Spatzen?
+Fressen Katzen gern Spatzen?
+Fressen Spatzen gern Katzen?«
+
+Stoerung3:
+das Spiel fing an.
+Das Publikum fing an,
+
+Stoerung4:
+ein sehr schöner Tag
+
+Stoerung5:
+Wollen Sie so gut sein
+
+Stoerung6:
+Gleich welken Blüthen, mitgebracht
+
+
